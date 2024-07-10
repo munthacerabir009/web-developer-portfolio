@@ -15,7 +15,9 @@ nav ul{
 .secondery-bg{
   background-color: #FFF8F3;
 }
-
+.text-centre{
+  text-align: center;
+}
 .text-primary {
     color: #FD6E0A;
  }
@@ -93,11 +95,71 @@ nav li a{
 main{
   max-width: 1140px;
   margin: 0 auto;
+  
+}
+main section{
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 /* about section  */
 .about{
   border-radius: 10px;
   padding:110px 130px;
   text-align: center;
-  margin-top: 110px ;
+  
+}
+.about-item{
+  display: flex;
+  justify-content:space-between;
+}
+.item-description{
+  font-weight: 600;
+}
+/* style skill-container */
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 #255;
+}
+/* resume section column */
+.resume-container{
+  display: flex;
+  gap: 20px;
+}
+.experience-descripton , .experience-sub-title{
+  color: #757575;
+}
+.experience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume hr{
+  margin-top: 30px 5px;
+}
+.resume-download-cv{
+  margin-top: 40px;
+}
+/* footer style */
+footer{
+  padding: 110px 220px;
+  display: flex;
+  gap: 90px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"] footer input[type="email"] footer {
+  height: 50px;
+  border-radius: 3px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
